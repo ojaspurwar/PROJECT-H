@@ -1,0 +1,32 @@
+{
+  "appName": "Project H",
+  "aiName": "H-Assistant",
+  "description": "Ultra-fast AI power for professional results.",
+  "aiProvider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "tiers": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": "$0",
+      "features": ["Basic AI Chat", "3 Messages/Day", "Standard Support"]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price": "$19.99",
+      "features": ["Unlimited AI Chat", "Priority Support", "Advanced Models", "Custom Themes"]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": "Custom",
+      "features": ["Dedicated Instance", "API Access", "Custom Integrations", "24/7 Support"]
+    }
+  ],
+  "defaultTheme": {
+    "darkMode": true,
+    "primaryColor": "#6366f1",
+    "textColor": "#ffffff"
+  }
+}
